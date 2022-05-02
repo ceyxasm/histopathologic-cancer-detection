@@ -73,7 +73,7 @@ Transformations = transforms.Compose([transforms.ToPILImage(),
                                   transforms.Pad(64, padding_mode='reflect'),
                                   transforms.ToTensor(),
                                   transforms.Normalize(mean=[0.5, 0.5, 0.5],std=[0.5, 0.5, 0.5])])
-path_to_model='../model/model.ckpt'
+path_to_model='model/model.ckpt'
 def preprocess(data):
     data = [data]
     dataset_inp = Dataset(data_df = data,transform = Transformations)
