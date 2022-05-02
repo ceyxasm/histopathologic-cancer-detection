@@ -1,6 +1,6 @@
 # histopathologic-cancer-detection
 
-* Site is deployed [here](https://en.wikipedia.org/wiki/Cat)
+* Site is deployed [here](https://share.streamlit.io/ceyxasm/histopathologic-cancer-detection/main/code/app.py)
 * Detailed [report](/report.pdf)
 
 Modern medical image processing techniques work on histopathology images captured
