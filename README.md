@@ -15,4 +15,4 @@ analysis on the data and try out different models to give the best results.
 
 We train a Convolutional Neural Network on [dataset](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data). Architecture of the same:
 
-![Architecture](histopathologic-cancer-detection/content/architecture.png?raw=true "Architecture")
+![Architecture](/content/architecture.png?raw=true "Architecture")
