@@ -99,7 +99,7 @@ if wav is not None:
             img = img.to(torch.device('cpu'))
             _,ans = torch.max(model(img).data,1)
     #ans = st.write(model(torch.tensor([wav])))
-    st.write('The prediction was','Yes' if ans == 1 else 'No')
+    st.write('The model predicts', 'this image has Histopathological Cancer' if ans == 1 else 'this image doesn\'t have Histopathological Cancer')
 
 
 #functions
