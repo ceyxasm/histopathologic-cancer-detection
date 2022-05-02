@@ -12,7 +12,7 @@ pathological detection systems.
 In this project, we perform exploratory
 analysis on the data and try out different models to give the best results.
 
-![Overview](/content/Overview.png?raw=true "overview")
+![Overview](/content/overview.png?raw=true "overview")
 
 We train a Convolutional Neural Network on [dataset](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data) achieving an accuracy of 92.27%. Architecture of the same:
 
