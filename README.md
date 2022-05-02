@@ -10,4 +10,4 @@ pathological detection systems.
 In this project, we perform exploratory
 analysis on the data and try out different models to give the best results.
 
-![Overview](histopathologic-cancer-detection/content/overview.png?raw=true "Overview")
+![Overview](/content/overview.png?raw=true "Overview")
