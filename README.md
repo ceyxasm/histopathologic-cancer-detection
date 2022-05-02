@@ -1,6 +1,7 @@
 # histopathologic-cancer-detection
 
-Site is deployed [here](https://en.wikipedia.org/wiki/Cat)
+* Site is deployed [here](https://en.wikipedia.org/wiki/Cat)
+* Detailed [report](/report.pdf)
 
 Modern medical image processing techniques work on histopathology images captured
 by a microscope, and then analyze them by using different algorithms and methods.
