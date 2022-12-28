@@ -83,7 +83,7 @@ def preprocess(data):
 
 
 st.title("Histopathological Cancer Detection")
-st.markdown("A site which detects Histopathological Cancer from .tif images using a Convoluted Neural Network, implemented with PyTorch!")
+st.markdown("For Histopathological Cancer from .tif images using a Convoluted Neural Network, implemented with PyTorch!")
 
 wav = st.file_uploader("Upload your Image file (TIF)",type = ['tif'])
 if wav is not None:
@@ -99,7 +99,7 @@ if wav is not None:
             img = img.to(torch.device('cpu'))
             _,ans = torch.max(model(img).data,1)
     #ans = st.write(model(torch.tensor([wav])))
-    st.write('The model predicts', 'this image has Histopathological Cancer' if ans == 1 else 'this image doesn\'t have Histopathological Cancer')
+    st.write('The model predicts', 'that the sample is cancer positive' if ans == 1 else 'the sample doesn\'t have Cancer')
 
 
 #functions
