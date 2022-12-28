@@ -1,0 +1,7 @@
+numpy
+torch
+torchvision
+sklearn
+streamlit
+pickle
+PIL
